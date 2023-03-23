@@ -1,0 +1,13 @@
+C:\Users\marchila\source\repos\MaterialSkin2WindowsFormsApp\bin\Debug\MaterialSkin2WindowsFormsApp.exe.config
+C:\Users\marchila\source\repos\MaterialSkin2WindowsFormsApp\bin\Debug\MaterialSkin2WindowsFormsApp.exe
+C:\Users\marchila\source\repos\MaterialSkin2WindowsFormsApp\bin\Debug\MaterialSkin2WindowsFormsApp.pdb
+C:\Users\marchila\source\repos\MaterialSkin2WindowsFormsApp\bin\Debug\MaterialSkin.dll
+C:\Users\marchila\source\repos\MaterialSkin2WindowsFormsApp\obj\Debug\MaterialSkin2WindowsFormsApp.csproj.AssemblyReference.cache
+C:\Users\marchila\source\repos\MaterialSkin2WindowsFormsApp\obj\Debug\MaterialSkin2WindowsFormsApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\marchila\source\repos\MaterialSkin2WindowsFormsApp\obj\Debug\MaterialSkin2WindowsFormsApp.Form1.resources
+C:\Users\marchila\source\repos\MaterialSkin2WindowsFormsApp\obj\Debug\MaterialSkin2WindowsFormsApp.Properties.Resources.resources
+C:\Users\marchila\source\repos\MaterialSkin2WindowsFormsApp\obj\Debug\MaterialSkin2WindowsFormsApp.csproj.GenerateResource.cache
+C:\Users\marchila\source\repos\MaterialSkin2WindowsFormsApp\obj\Debug\MaterialSkin2WindowsFormsApp.csproj.CoreCompileInputs.cache
+C:\Users\marchila\source\repos\MaterialSkin2WindowsFormsApp\obj\Debug\MaterialSkin2WindowsFormsApp.csproj.CopyComplete
+C:\Users\marchila\source\repos\MaterialSkin2WindowsFormsApp\obj\Debug\MaterialSkin2WindowsFormsApp.exe
+C:\Users\marchila\source\repos\MaterialSkin2WindowsFormsApp\obj\Debug\MaterialSkin2WindowsFormsApp.pdb
