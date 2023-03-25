@@ -1,4 +1,5 @@
 ﻿using MaterialSkin.Controls;
+using MaterialSkin2WindowsFormsApp.Forms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WinFormsApp1.Controllers.DataBase;
 
 namespace MaterialSkin2WindowsFormsApp
 {
@@ -19,13 +21,27 @@ namespace MaterialSkin2WindowsFormsApp
         public Form1()
         {
             InitializeComponent();
-
+            loadFormVentas();
             materialProgressBar1.Minimum = 0;
             materialProgressBar1.Maximum = 100;
 
             timer.Interval = 1000;
             timer.Tick += Timer_Tick;
             timer.Start();
+
+        }
+
+        private void loadFormVentas()
+        {
+            FormVentas formVentas = new FormVentas();
+            formVentas.TopLevel = false;
+            formVentas.Show();
+            tabPage1.Controls.Add(formVentas);
+
+            FormRecibido formRecibido = new FormRecibido();
+            formRecibido.TopLevel = false;
+            formRecibido.Show();
+            tabPage3.Controls.Add(formRecibido);
 
         }
 
@@ -51,6 +67,7 @@ namespace MaterialSkin2WindowsFormsApp
         {
             timer.Start();
         }
+
 
     }
 }
