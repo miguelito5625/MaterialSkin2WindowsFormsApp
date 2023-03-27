@@ -36,9 +36,10 @@
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(6, 4);
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.Location = new System.Drawing.Point(3, 3);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(788, 440);
+            this.dataGridView1.Size = new System.Drawing.Size(794, 444);
             this.dataGridView1.TabIndex = 0;
             // 
             // FormRecibido
@@ -49,6 +50,7 @@
             this.ControlBox = false;
             this.Controls.Add(this.dataGridView1);
             this.Name = "FormRecibido";
+            this.Padding = new System.Windows.Forms.Padding(3);
             this.Text = "FormRecibido";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

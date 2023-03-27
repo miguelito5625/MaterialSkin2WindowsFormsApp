@@ -65,6 +65,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\DataBase\PuentePass.cs" />
     <Compile Include="Controllers\DataBase\Recibido.cs" />
     <Compile Include="Controllers\DataBase\Ventas.cs" />
     <Compile Include="Controllers\DataBase\ConexionBD.cs" />
@@ -86,6 +87,12 @@
     <Compile Include="Forms\FormVentas.Designer.cs">
       <DependentUpon>FormVentas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Puente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Puente.Designer.cs">
+      <DependentUpon>Puente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -96,6 +103,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormVentas.resx">
       <DependentUpon>FormVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Puente.resx">
+      <DependentUpon>Puente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

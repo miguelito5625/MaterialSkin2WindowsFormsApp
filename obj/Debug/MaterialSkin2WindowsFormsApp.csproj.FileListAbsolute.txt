@@ -28,3 +28,4 @@ C:\Users\migue\source\repos\MaterialSkin2WindowsFormsApp\bin\Debug\Database1.mdf
 C:\Users\migue\source\repos\MaterialSkin2WindowsFormsApp\bin\Debug\Database1_log.ldf
 C:\Users\migue\source\repos\MaterialSkin2WindowsFormsApp\obj\Debug\MaterialSkin2WindowsFormsApp.Forms.FormVentas.resources
 C:\Users\migue\source\repos\MaterialSkin2WindowsFormsApp\obj\Debug\MaterialSkin2WindowsFormsApp.Forms.FormRecibido.resources
+C:\Users\migue\source\repos\MaterialSkin2WindowsFormsApp\obj\Debug\MaterialSkin2WindowsFormsApp.Forms.Puente.resources

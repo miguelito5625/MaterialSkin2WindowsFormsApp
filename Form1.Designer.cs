@@ -28,24 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.materialProgressBar1 = new MaterialSkin.Controls.MaterialProgressBar();
             this.materialTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.materialTabControl1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // materialProgressBar1
-            // 
-            this.materialProgressBar1.Depth = 0;
-            this.materialProgressBar1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.materialProgressBar1.Location = new System.Drawing.Point(3, 349);
-            this.materialProgressBar1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialProgressBar1.Name = "materialProgressBar1";
-            this.materialProgressBar1.Size = new System.Drawing.Size(780, 5);
-            this.materialProgressBar1.TabIndex = 0;
             // 
             // materialTabControl1
             // 
@@ -74,7 +62,6 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.materialProgressBar1);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -103,14 +90,11 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.materialTabControl1.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private MaterialSkin.Controls.MaterialProgressBar materialProgressBar1;
         private MaterialSkin.Controls.MaterialTabControl materialTabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
